@@ -27,7 +27,7 @@ const links = [
 ];
 
 
-export default function Nav(){
+const Nav = () => {
       return (
     <nav>
         {links.map((link, index) => {
@@ -41,4 +41,4 @@ export default function Nav(){
   );
 };
 
-// export default Nav;
+export default Nav;
